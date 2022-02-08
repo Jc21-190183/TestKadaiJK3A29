@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kuriage", "kuriage.csproj", "{34C51579-82CB-417C-9468-F4F990F266AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kuriageTests", "..\kuriageTests\kuriageTests.csproj", "{21A5C3E9-DF3B-4069-ADF6-59A9F6E9A944}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34C51579-82CB-417C-9468-F4F990F266AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C51579-82CB-417C-9468-F4F990F266AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C51579-82CB-417C-9468-F4F990F266AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C51579-82CB-417C-9468-F4F990F266AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21A5C3E9-DF3B-4069-ADF6-59A9F6E9A944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A5C3E9-DF3B-4069-ADF6-59A9F6E9A944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A5C3E9-DF3B-4069-ADF6-59A9F6E9A944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A5C3E9-DF3B-4069-ADF6-59A9F6E9A944}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75A185AC-282C-4B2E-AA88-C10B9D817CD8}
+	EndGlobalSection
+EndGlobal
