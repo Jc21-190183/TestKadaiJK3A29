@@ -9,10 +9,18 @@ namespace kuriage
     public class kuriage
     {
 
-        public static int kuriage10(int i)
+        public static int Kuriage10(int i)
         {
-            if (i >= 5) i = 10;
-            if (i < 5) i = 0;
+            if (i == 0) return 0;
+            int a = 0;
+            if (i < 0)
+            {
+                a = 1;
+                i = i * -1;
+            }
+            if (i % 10 != 0) i += 10 - i % 10;
+            if (a == 1) i = i * -1;
+
             return i;
         }
 
